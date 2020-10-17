@@ -1,33 +1,37 @@
 <template>
   <div class="home">
     <HeaderShayna />
-    <HeroCarousel />
-    <ProductCarousel />
-    <InstaShayna />
-    <PartnerShayna />
-    <FooterShayna />
+    <HeroShayna/>
+    <WomanShayna/>
+    <InstaShayna/>
+    <PartnerShayna/>
+    <FooterShayna/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
-import HeaderShayna from "@/components/HeaderShayna.vue";
-import HeroCarousel from "@/components/HeroCarousel.vue";
-import ProductCarousel from "@/components/ProductCarousel.vue";
-import InstaShayna from "@/components/InstaShayna.vue";
-import PartnerShayna from "@/components/PartnerShayna.vue";
-import FooterShayna from "@/components/FooterShayna.vue";
+// import HelloWorld from '@/components/HelloWorld.vue'
+import HeaderShayna from '@/components/HeaderShayna.vue';
+import HeroShayna from '@/components/HeroShayna.vue';
+import WomanShayna from '@/components/WomanShayna.vue';
+import InstaShayna from '@/components/InstaShayna.vue';
+import PartnerShayna from '@/components/PartnerShayna.vue';
+import FooterShayna from '@/components/FooterShayna.vue';
+
+
+
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     HeaderShayna,
-    HeroCarousel,
-    ProductCarousel,
+    HeroShayna,
+    WomanShayna,
     InstaShayna,
     PartnerShayna,
     FooterShayna
+
   }
-};
+}
 </script>
